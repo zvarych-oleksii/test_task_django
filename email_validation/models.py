@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class EmailVerificationResult(models.Model):
+class EmailVerification(models.Model):
     email = models.EmailField(unique=True)
     status = models.CharField(max_length=50, default="invalid")
 

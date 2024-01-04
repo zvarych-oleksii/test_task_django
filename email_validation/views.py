@@ -1,12 +1,10 @@
-# email_verification_app/views.py
-
-import requests
 from rest_framework import status
+from rest_framework.generics import RetrieveUpdateDestroyAPIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import EmailVerificationResult
-from .serializers import EmailVerificationResultSerializer
+from .models import EmailVerification
+from .serializers import EmailVerificationSerializer
 from .utils.hunter_validator import hunter_validator
 
 
@@ -20,7 +18,7 @@ class EmailVerificationView(APIView):
             "score": result_data.get("score", 0),
         }
 
-        serializer = EmailVerificationResultSerializer(data=serializer_data)
+        serializer = EmailVerificationSerializer(data=serializer_data)
         if serializer.is_valid():
             serializer.save()
 
@@ -28,7 +26,24 @@ class EmailVerificationView(APIView):
 
 
 class EmailVerificationResultListView(APIView):
+
     def get(self, request):
-        results = EmailVerificationResult.objects.all()
-        serializer = EmailVerificationResultSerializer(results, many=True)
+        results = EmailVerification.objects.all()
+        serializer = EmailVerificationSerializer(results, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+    def delete(self, request):
+        EmailVerification.objects.all().delete()
+        return Response("{message: 'Email verification deleted'}", status=status.HTTP_204_NO_CONTENT)
+
+    def post(self, request):
+        serializer = EmailVerificationSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class EmailVerificationResultDetailView(RetrieveUpdateDestroyAPIView):
+    queryset = EmailVerification.objects.all()
+    serializer_class = EmailVerificationSerializer

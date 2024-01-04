@@ -1,7 +1,8 @@
 from rest_framework import serializers
-from .models import EmailVerificationResult
+from .models import EmailVerification
 
-class EmailVerificationResultSerializer(serializers.ModelSerializer):
+
+class EmailVerificationSerializer(serializers.ModelSerializer):
     class Meta:
-        model = EmailVerificationResult
+        model = EmailVerification
         fields = '__all__'

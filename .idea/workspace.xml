@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="aa9c1c4d-8a3d-4b9c-b46b-890c088c31cb" name="Changes" comment="Added docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704366691544</updated>
-      <workItem from="1704366700729" duration="6640000" />
+      <workItem from="1704366700729" duration="7369000" />
     </task>
     <task id="LOCAL-00001" summary="FirstVesion">
       <option name="closed" value="true" />
@@ -169,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704373348735</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added docker">
+      <option name="closed" value="true" />
+      <created>1704373561080</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704373561080</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
