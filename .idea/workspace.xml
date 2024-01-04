@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa9c1c4d-8a3d-4b9c-b46b-890c088c31cb" name="Changes" comment="ChangedModel">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="aa9c1c4d-8a3d-4b9c-b46b-890c088c31cb" name="Changes" comment="Added docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "zvarych-oleksii"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ef97dcb7-c703-491b-84e0-97e6b9b352a4" />
+        <option name="url" value="https://github.com/zvarych-oleksii/test_task_django.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -106,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704366691544</updated>
-      <workItem from="1704366700729" duration="5810000" />
+      <workItem from="1704366700729" duration="6445000" />
     </task>
     <task id="LOCAL-00001" summary="FirstVesion">
       <option name="closed" value="true" />
@@ -140,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704371837824</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added docker">
+      <option name="closed" value="true" />
+      <created>1704372935109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704372935109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +169,7 @@
     <MESSAGE value="FirstVesion" />
     <MESSAGE value="FirstVersion" />
     <MESSAGE value="ChangedModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChangedModel" />
+    <MESSAGE value="Added docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added docker" />
   </component>
 </project>
