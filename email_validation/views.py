@@ -7,27 +7,19 @@ from rest_framework.views import APIView
 
 from .models import EmailVerificationResult
 from .serializers import EmailVerificationResultSerializer
+from .utils.hunter_validator import hunter_validator
 
 
 class EmailVerificationView(APIView):
     def get(self, request, email):
-        api_key = "96d95ec2ea53efab6eaa859ebfa0d0a25f028a24"
-        url = "https://api.hunter.io/v2/email-verifier"
-        params = {"email": email, "api_key": api_key}
-        response = requests.get(url, params=params)
-
-        result_data = response.json().get("data", {})
-
-        # Create a dictionary with the relevant fields for the serializer
+        result_data = hunter_validator(email)
         serializer_data = {
             "email": email,
             "status": result_data.get("status", ""),
             "result": result_data.get("result", ""),
             "score": result_data.get("score", 0),
-            # Add other fields according to the Hunter.io API response
         }
 
-        # Save the result to the database
         serializer = EmailVerificationResultSerializer(data=serializer_data)
         if serializer.is_valid():
             serializer.save()
