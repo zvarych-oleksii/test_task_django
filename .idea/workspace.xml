@@ -165,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704366691544</updated>
-      <workItem from="1704366700729" duration="15845000" />
+      <workItem from="1704366700729" duration="16152000" />
     </task>
     <task id="LOCAL-00001" summary="FirstVesion">
       <option name="closed" value="true" />
@@ -263,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704382985908</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added docker">
+      <option name="closed" value="true" />
+      <created>1704383465648</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704383465648</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added docker">
+      <option name="closed" value="true" />
+      <created>1704383471257</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704383471257</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
