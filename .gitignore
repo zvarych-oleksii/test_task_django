@@ -1,4 +1,3 @@
 .idea/
 setup.cfg
-db.sqlite3
 .env
