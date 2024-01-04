@@ -1,4 +1,4 @@
-# First version
+# Test task on Django REST API
 ## Install service
 ```bash
 git clone https://github.com/zvarych-oleksii/test_task_django
