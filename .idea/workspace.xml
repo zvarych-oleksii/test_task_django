@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa9c1c4d-8a3d-4b9c-b46b-890c088c31cb" name="Changes" comment="Added docker" />
+    <list default="true" id="aa9c1c4d-8a3d-4b9c-b46b-890c088c31cb" name="Changes" comment="Added docker">
+      <change afterPath="$PROJECT_DIR$/email_validation/migrations/0004_remove_emailverification_status_and_more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env-template" beforeDir="false" afterPath="$PROJECT_DIR$/.env-template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/utils/hunter_validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/utils/hunter_validator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_validation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_validation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_django_project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_django_project/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_django_project/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -53,6 +70,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django tests.Test: email_validation.executor": "Run",
+    "Django tests.Test: email_validation.tests.EmailVerificationTests.test_email_verification_result_list_view.executor": "Run",
+    "Django tests.Test: email_validation.tests.EmailVerificationTests.test_email_verification_view.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,7 +93,49 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: email_validation.tests.EmailVerificationTests.test_email_verification_result_list_view">
+    <configuration name="Test: email_validation.tests.EmailVerificationTests.test_email_verification_result_list_view" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="test_django_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="email_validation.tests.EmailVerificationTests.test_email_verification_result_list_view" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: email_validation.tests.EmailVerificationTests.test_email_verification_view" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="test_django_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="email_validation.tests.EmailVerificationTests.test_email_verification_view" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_django_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="test_django_project" />
       <option name="ENV_FILES" value="" />
@@ -98,6 +160,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: email_validation.tests.EmailVerificationTests.test_email_verification_result_list_view" />
+        <item itemvalue="Django tests.Test: email_validation.tests.EmailVerificationTests.test_email_verification_view" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704366691544</updated>
-      <workItem from="1704366700729" duration="7524000" />
+      <workItem from="1704366700729" duration="12913000" />
     </task>
     <task id="LOCAL-00001" summary="FirstVesion">
       <option name="closed" value="true" />
@@ -180,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704374292903</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added docker">
+      <option name="closed" value="true" />
+      <created>1704374474439</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704374474439</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,5 +268,10 @@
     <MESSAGE value="ChangedModel" />
     <MESSAGE value="Added docker" />
     <option name="LAST_COMMIT_MESSAGE" value="Added docker" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test_django_project$Test__email_validation_tests_EmailVerificationTests_test_email_verification_view.coverage" NAME="Test: email_validation.tests.EmailVerificationTests.test_email_verification_view Coverage Results" MODIFIED="1704377153841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_django_project$Test__email_validation.coverage" NAME="Test: email_validation Coverage Results" MODIFIED="1704377536031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_django_project$Test__email_validation_tests_EmailVerificationTests_test_email_verification_result_list_view.coverage" NAME="Test: email_validation.tests.EmailVerificationTests.test_email_verification_result_list_view Coverage Results" MODIFIED="1704377259795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
