@@ -33,3 +33,7 @@ python manage.py runserver
 ```
 
 In browser 127.0.0.1:8000
+
+# Default user is
+### username: admin
+### password: admin
